@@ -24,11 +24,8 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { 
-  MapPin, 
   Mail, 
-  Phone, 
-  Clock,
-  ExternalLink
+  Phone
 } from "lucide-react";
 import type { InsertContact } from "@shared/schema";
 
@@ -75,17 +72,6 @@ export default function ContactSection() {
 
   const contactInfo = [
     {
-      icon: <MapPin className="w-6 h-6 text-primary" />,
-      title: "Office Location",
-      content: (
-        <div className="text-muted-foreground">
-          123 Financial District, Suite 500<br/>
-          New York, NY 10004<br/>
-          United States
-        </div>
-      )
-    },
-    {
       icon: <Mail className="w-6 h-6 text-primary" />,
       title: "Email Us", 
       content: (
@@ -104,17 +90,6 @@ export default function ContactSection() {
           Support: <a href="tel:+15559876543" className="text-primary hover:underline">+1 (555) 987-6543</a>
         </div>
       )
-    },
-    {
-      icon: <Clock className="w-6 h-6 text-primary" />,
-      title: "Business Hours",
-      content: (
-        <div className="text-muted-foreground">
-          Monday - Friday: 9:00 AM - 6:00 PM EST<br/>
-          Saturday: 10:00 AM - 2:00 PM EST<br/>
-          Sunday: Closed
-        </div>
-      )
     }
   ];
 
@@ -127,7 +102,7 @@ export default function ContactSection() {
             Get in <span className="gradient-text">Touch</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Ready to transform your financial services? Contact our team to discuss your specific needs and discover how BeyondxIT can help.
+            Ready to transform your business? Contact our team to discuss your specific needs and discover how BeyondxIT can help.
           </p>
         </div>
         
@@ -249,11 +224,11 @@ export default function ContactSection() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="mfs">Mobile Financial Services</SelectItem>
-                          <SelectItem value="dfs">Digital Financial Services</SelectItem>
-                          <SelectItem value="ekyc">eKYC Solutions</SelectItem>
+                          <SelectItem value="mfs">Mobile Services</SelectItem>
+                          <SelectItem value="dfs">Digital Platforms</SelectItem>
+                          <SelectItem value="ekyc">Identity Verification</SelectItem>
                           <SelectItem value="booking">Session Booking</SelectItem>
-                          <SelectItem value="sms">SMS Integration</SelectItem>
+                          <SelectItem value="sms">Messaging Integration</SelectItem>
                           <SelectItem value="custom">Custom Solution</SelectItem>
                         </SelectContent>
                       </Select>
@@ -316,21 +291,6 @@ export default function ContactSection() {
                 </div>
               </div>
             ))}
-            
-            {/* Map Placeholder */}
-            <div className="bg-card rounded-xl shadow-md border border-border overflow-hidden" data-testid="map-container">
-              <img 
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
-                alt="Office location map" 
-                className="w-full h-64 object-cover" 
-                data-testid="img-map"
-              />
-              <div className="p-4">
-                <button className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all">
-                  View on Google Maps <ExternalLink className="w-4 h-4" />
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>

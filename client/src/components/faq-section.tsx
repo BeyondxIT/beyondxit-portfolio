@@ -32,15 +32,15 @@ export default function FAQSection() {
       items: [
         {
           question: "What is BeyondxIT and what services do you offer?",
-          answer: "BeyondxIT is a leading fintech solutions provider offering comprehensive services including Mobile Financial Services (MFS), Digital Financial Services (DFS), eKYC identity verification, mobile session booking, and SMS integration. We help businesses transform their financial operations through innovative technology solutions."
+          answer: "BeyondxIT is a leading technology solutions provider offering comprehensive services including mobile platforms, digital services, identity verification, session booking, and messaging integration. We help businesses transform their operations through innovative technology solutions."
         },
         {
-          question: "How secure are your financial solutions?",
-          answer: "Security is our top priority. We implement bank-grade encryption, multi-factor authentication, and comply with international security standards including PCI DSS, ISO 27001, and GDPR. Our systems undergo regular security audits and penetration testing to ensure the highest level of protection."
+          question: "How secure are your solutions?",
+          answer: "Security is our top priority. We implement enterprise-grade encryption, multi-factor authentication, and comply with international security standards including ISO 27001 and GDPR. Our systems undergo regular security audits and penetration testing to ensure the highest level of protection."
         },
         {
           question: "Which industries do you serve?",
-          answer: "We serve a wide range of industries including banking and financial institutions, telecommunications, retail and e-commerce, insurance, healthcare, and enterprise businesses. Our flexible solutions can be customized to meet the specific needs of any sector requiring financial technology services."
+          answer: "We serve a wide range of industries including telecommunications, retail and e-commerce, healthcare, and enterprise businesses. Our flexible solutions can be customized to meet the specific needs of any sector requiring technology services."
         }
       ]
     },
@@ -57,7 +57,7 @@ export default function FAQSection() {
         },
         {
           question: "Can your solutions integrate with existing systems?",
-          answer: "Absolutely. Our solutions are designed with flexibility in mind and can integrate seamlessly with most existing banking systems, ERP platforms, CRM tools, and payment gateways. We support REST APIs, webhooks, and various integration protocols to ensure compatibility with your current infrastructure."
+          answer: "Absolutely. Our solutions are designed with flexibility in mind and can integrate seamlessly with most existing enterprise systems, ERP platforms, CRM tools, and third-party services. We support REST APIs, webhooks, and various integration protocols to ensure compatibility with your current infrastructure."
         }
       ]
     },
@@ -70,7 +70,7 @@ export default function FAQSection() {
         },
         {
           question: "How is pricing structured?",
-          answer: "Our pricing is flexible and based on your specific requirements, transaction volumes, and features needed. We offer both subscription-based and transaction-based pricing models. Contact our sales team for a customized quote tailored to your business needs. We also provide volume discounts for enterprise clients and special pricing for startups."
+          answer: "Our pricing is flexible and based on your specific requirements, usage volumes, and features needed. We offer both subscription-based and usage-based pricing models. Contact our sales team for a customized quote tailored to your business needs. We also provide volume discounts for enterprise clients and special pricing for startups."
         },
         {
           question: "Do you offer training for our team?",

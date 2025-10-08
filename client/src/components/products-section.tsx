@@ -26,71 +26,71 @@ export default function ProductsSection() {
   const products = [
     {
       icon: <Smartphone className="w-8 h-8 text-white" />,
-      title: "Mobile Financial Services (MFS)",
-      description: "Empower your customers with seamless mobile money transfers, bill payments, and wallet services.",
+      title: "Mobile Platform",
+      description: "Empower your customers with seamless mobile experiences and instant digital interactions.",
       features: [
-        "Instant peer-to-peer transfers",
-        "Bill payment integration", 
-        "Multi-currency wallet support",
-        "Real-time transaction monitoring"
+        "Cross-platform compatibility",
+        "Real-time synchronization", 
+        "Offline mode support",
+        "Push notifications"
       ],
       gradient: "from-primary to-primary/70"
     },
     {
       icon: <Building className="w-8 h-8 text-white" />,
-      title: "Digital Financial Services (DFS)",
-      description: "Complete digital banking infrastructure for modern financial institutions and businesses.",
+      title: "Digital Infrastructure",
+      description: "Complete cloud-based infrastructure for modern businesses and service providers.",
       features: [
-        "Digital account opening",
-        "Automated loan processing",
-        "Investment portfolio management",
-        "Regulatory compliance tools"
+        "Scalable architecture",
+        "Automated workflows",
+        "Data analytics dashboard",
+        "API integration"
       ],
       gradient: "from-primary to-primary/70"
     },
     {
       icon: <IdCard className="w-8 h-8 text-white" />,
-      title: "Electronic KYC (eKYC)",
-      description: "Streamline customer onboarding with AI-powered identity verification and compliance solutions.",
+      title: "Identity Verification",
+      description: "Streamline user onboarding with AI-powered identity verification solutions.",
       features: [
         "Biometric authentication",
-        "Document verification (OCR)",
-        "Liveness detection",
-        "AML/CFT screening"
+        "Document scanning",
+        "Live verification",
+        "Secure validation"
       ],
       gradient: "from-primary to-primary/70"
     },
     {
       icon: <CalendarCheck className="w-8 h-8 text-white" />,
-      title: "Mobile Session Booking",
-      description: "Enable customers to schedule appointments and consultations directly through mobile devices.",
+      title: "Appointment System",
+      description: "Enable customers to schedule appointments and consultations seamlessly.",
       features: [
-        "Real-time availability calendar",
+        "Real-time availability",
         "Automated reminders",
-        "Virtual meeting integration", 
-        "Queue management system"
+        "Video conferencing", 
+        "Queue management"
       ],
       gradient: "from-primary to-primary/70"
     },
     {
       icon: <MessageSquare className="w-8 h-8 text-white" />,
-      title: "SMS Integration",
-      description: "Reliable SMS gateway for transaction alerts, OTP delivery, and customer communications.",
+      title: "Messaging Platform",
+      description: "Reliable messaging gateway for alerts, verification codes, and customer communications.",
       features: [
-        "Two-factor authentication (2FA)",
-        "Bulk messaging campaigns",
-        "Transaction notifications",
-        "Delivery tracking & analytics"
+        "Multi-channel delivery",
+        "Bulk campaigns",
+        "Smart notifications",
+        "Analytics & reporting"
       ],
       gradient: "from-primary to-primary/70"
     }
   ];
 
   const useCases = [
-    { icon: "🏦", title: "Banking", description: "Digital transformation for traditional banks" },
-    { icon: "🏪", title: "Retail", description: "Payment solutions for merchants" },
-    { icon: "📱", title: "Telecom", description: "Mobile money integration" },
-    { icon: "💼", title: "Enterprise", description: "Corporate financial management" }
+    { icon: "🏢", title: "Corporate", description: "Digital transformation solutions" },
+    { icon: "🏪", title: "Retail", description: "Customer engagement systems" },
+    { icon: "📱", title: "Telecom", description: "Mobile service platforms" },
+    { icon: "💼", title: "Enterprise", description: "Business management solutions" }
   ];
 
   return (
@@ -102,7 +102,7 @@ export default function ProductsSection() {
             Our <span className="gradient-text">Solutions</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Comprehensive fintech products designed to accelerate digital transformation and drive business growth.
+            Comprehensive technology products designed to accelerate digital transformation and drive business growth.
           </p>
         </div>
         

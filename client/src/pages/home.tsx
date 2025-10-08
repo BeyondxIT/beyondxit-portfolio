@@ -1,6 +1,5 @@
 import Navigation from "@/components/navigation";
 import HeroSection from "@/components/hero-section";
-import StatsSection from "@/components/stats-section";
 import AboutSection from "@/components/about-section";
 import ProductsSection from "@/components/products-section";
 import ContactSection from "@/components/contact-section";
@@ -12,7 +11,6 @@ export default function Home() {
     <div className="min-h-screen">
       <Navigation />
       <HeroSection />
-      <StatsSection />
       <AboutSection />
       <ProductsSection />
       <ContactSection />

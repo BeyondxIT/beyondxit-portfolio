@@ -48,7 +48,7 @@ export default function HeroSection() {
                 onClick={() => scrollToSection('contact')}
                 variant="outline"
                 size="lg"
-                className="border-2 border-white text-white hover:bg-white hover:text-primary"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary"
                 data-testid="button-contact-sales"
               >
                 Contact Sales

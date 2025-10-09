@@ -80,18 +80,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const mailOptions = {
         from: process.env.SMTP_USER || process.env.EMAIL_USER,
         to: validatedData.email,
-        subject: "Welcome to BeyondxIT Newsletter",
+        subject: "Welcome to Beyondx IT Newsletter",
         html: `
-          <h2>Welcome to BeyondxIT!</h2>
-          <p>Thank you for subscribing to our newsletter. You'll receive the latest updates and insights about financial technology directly in your inbox.</p>
+          <h2>Welcome to Beyondx IT!</h2>
+          <p>Thank you for subscribing to our newsletter. You'll receive the latest updates and insights about technology directly in your inbox.</p>
           <p>Stay tuned for:</p>
           <ul>
             <li>Product updates and new features</li>
             <li>Industry insights and trends</li>
-            <li>Educational content about fintech</li>
+            <li>Educational content about technology</li>
             <li>Company news and announcements</li>
           </ul>
-          <p>Best regards,<br>The BeyondxIT Team</p>
+          <p>Best regards,<br>The Beyondx IT Team</p>
         `,
       };
 

@@ -1,8 +1,8 @@
-# BeyondxIT - Fintech Solutions Platform
+# Beyondx IT - Technology Solutions Platform
 
 ## Overview
 
-BeyondxIT is a modern fintech solutions platform that provides mobile financial services (MFS), digital financial services (DFS), eKYC identity verification, and other financial technology solutions. The application is built as a full-stack web application with a marketing/landing page that showcases services, allows contact form submissions, and newsletter subscriptions.
+Beyondx IT is a modern technology solutions platform that provides mobile platforms, digital services, identity verification, and other technology solutions. The application is built as a full-stack web application with a marketing/landing page that showcases services, allows contact form submissions, and newsletter subscriptions.
 
 ## User Preferences
 

@@ -102,7 +102,7 @@ export default function ContactSection() {
             Get in <span className="gradient-text">Touch</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Ready to transform your business? Contact our team to discuss your specific needs and discover how BeyondxIT can help.
+            Ready to transform your business? Contact our team to discuss your specific needs and discover how Beyondx IT can help.
           </p>
         </div>
         

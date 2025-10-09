@@ -31,8 +31,8 @@ export default function FAQSection() {
       title: "General Questions",
       items: [
         {
-          question: "What is BeyondxIT and what services do you offer?",
-          answer: "BeyondxIT is a leading technology solutions provider offering comprehensive services including mobile platforms, digital services, identity verification, session booking, and messaging integration. We help businesses transform their operations through innovative technology solutions."
+          question: "What is Beyondx IT and what services do you offer?",
+          answer: "Beyondx IT is a leading technology solutions provider offering comprehensive services including mobile platforms, digital services, identity verification, session booking, and messaging integration. We help businesses transform their operations through innovative technology solutions."
         },
         {
           question: "How secure are your solutions?",

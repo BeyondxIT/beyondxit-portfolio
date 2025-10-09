@@ -42,7 +42,7 @@ export default function Navigation() {
                 className="text-2xl font-bold font-display text-secondary hover:text-primary transition-colors"
                 data-testid="logo-link"
               >
-                BeyondxIT
+                Beyondx IT
               </button>
             </div>
             

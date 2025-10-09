@@ -32,7 +32,7 @@ export default function HeroSection() {
             </h1>
             
             <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
-              BeyondxIT delivers cutting-edge technology solutions that empower businesses and individuals with seamless digital services, intelligent automation, and innovative platforms.
+              Beyondx IT delivers cutting-edge technology solutions that empower businesses and individuals with seamless digital services, intelligent automation, and innovative platforms.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

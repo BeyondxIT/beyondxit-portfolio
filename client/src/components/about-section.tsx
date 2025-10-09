@@ -7,7 +7,7 @@ export default function AboutSection() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-display text-secondary mb-6">
-            About <span className="gradient-text">BeyondxIT</span>
+            About <span className="gradient-text">Beyondx IT</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Leading the technology revolution with innovative solutions that bridge traditional business and digital transformation.

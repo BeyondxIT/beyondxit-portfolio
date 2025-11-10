@@ -1,9 +1,9 @@
 [build]
   command = "npm run build"
-  publish = "dist"  # or your build output directory
+  publish = "client/dist"
 
 [build.environment]
-  NODE_VERSION = "18"  # specify your Node.js version
+  NODE_VERSION = "22"  # specify your Node.js version
 
 # For single page applications (if applicable)
 [[redirects]]
